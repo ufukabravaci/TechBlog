@@ -1,0 +1,21 @@
+# .NET
+**/[Bb]in/
+**/[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# VS Code
+.vscode/
+.history/
+
+# React
+TechBlogClient/node_modules/
+TechBlogClient/build/
+
+# env dosyaları
+*.env*
