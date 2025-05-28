@@ -5,8 +5,8 @@ namespace TechBlogApi.Models
 {
     public class PostReaction : ReactionBase
     {
-        [Required]
-        public int PostId { get; set; }
+        
+        public int? PostId { get; set; }
 
         [ForeignKey("PostId")]
         public Post Post { get; set; } = null!;

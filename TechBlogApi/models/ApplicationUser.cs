@@ -15,7 +15,8 @@ public class ApplicationUser : IdentityUser
     public int Score { get; set; } = 0;
 
     //Navigation Properties
-    
+    public virtual ICollection<IdentityUserRole<string>> UserRoles { get; set; } = null!;
+
     public ICollection<Post> Posts = new List<Post>();
     public ICollection<Comment> Comments { get; set; } = new List<Comment>();
     public ICollection<PostReaction> PostReactions { get; set; } = new List<PostReaction>();
